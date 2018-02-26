@@ -1,0 +1,60 @@
+body {
+    display: block;
+    margin: 0px;
+}
+
+#right {
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    top: 0%;
+    left: 80%;
+    background-color: #444;
+}
+
+h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    color: #fff;
+    text-align: center;
+}
+
+#gomb {
+    width: 40px;
+    height: 45px;
+    border-radius: 4px;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    background-color: #444;
+    color: #fff;
+    coursor: pointer;
+}
+
+#kereso {
+    width: 180px;
+    height: 40px;
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    padding-left: 25px;
+    border-radius: 4px;
+}
+
+#kereso:focus {
+    box-shadow: 2px #000;
+}
+
+svg {
+    position: absolute;
+    top: 92%;
+    left: 32%;
+    z-index: 1;
+}
+
+#left {
+    width: 80%;
+    height: 750px;
+    background-image: url("/assets/site/mapblue.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
